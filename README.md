@@ -6,7 +6,7 @@ This repository contains the implementation and experiments for a research study
 
 The project focuses on comparing traditional, ensemble, and deep learning models under realistic trading constraints, including T+2 settlement and stop-loss risk management.
 
----
+
 
 ## Research Paper
 
@@ -17,13 +17,13 @@ The full research paper is available on arXiv:
 **Title:**
 *Comparative Analysis of Machine Learning Models for NEPSE Stock Direction Prediction Using Technical Indicators*
 
----
+
 
 This project investigates:
 
 > **How effective are Logistic Regression, XGBoost, and LSTM models in predicting next-day stock direction in NEPSE using technical indicators?**
 
----
+
 
 ## Dataset
 
@@ -44,7 +44,6 @@ This project investigates:
 date, open, high, low, close, volume
 ```
 
----
 
 ## Features
 
@@ -59,7 +58,7 @@ Technical indicators derived from price and volume data:
 * Volume Change
 * Rolling Volatility
 
----
+
 
 ## Target Variable
 
@@ -70,7 +69,6 @@ Binary classification:
 0 → Next-day price decreases or stays the same
 ```
 
----
 
 ## Models
 
@@ -80,7 +78,7 @@ The following models are evaluated:
 * XGBoost (tree-based ensemble)
 * LSTM (time-series deep learning)
 
----
+
 
 ## Experimental Setup
 
@@ -88,7 +86,7 @@ The following models are evaluated:
 * Same feature set across all models
 * Experiments conducted separately for each stock
 
----
+
 
 ## Backtesting Strategy
 
@@ -111,4 +109,3 @@ A realistic trading strategy is implemented with NEPSE constraints:
 * Sharpe Ratio
 * Maximum Drawdown
 
----
