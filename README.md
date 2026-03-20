@@ -46,7 +46,7 @@ date, open, high, low, close, volume
 
 ---
 
-## ⚙️ Features
+## Features
 
 Technical indicators derived from price and volume data:
 
